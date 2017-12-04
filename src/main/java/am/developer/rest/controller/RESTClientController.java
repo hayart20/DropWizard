@@ -1,4 +1,4 @@
-package com.howtodoinjava.rest.controller;
+package am.developer.rest.controller;
  
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.howtodoinjava.rest.representations.Employee;
+import am.developer.rest.representations.Employee;
  
 @Produces(MediaType.TEXT_PLAIN)
 @Path("/client/")

@@ -1,4 +1,4 @@
-package com.howtodoinjava.rest;
+package am.developer.rest;
 
 import io.dropwizard.Application;
 import io.dropwizard.Configuration;
@@ -15,13 +15,13 @@ import org.glassfish.jersey.server.filter.RolesAllowedDynamicFeature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.howtodoinjava.rest.basicauth.AppAuthenticator;
-import com.howtodoinjava.rest.basicauth.AppAuthorizer;
-import com.howtodoinjava.rest.basicauth.User;
-import com.howtodoinjava.rest.controller.EmployeeRESTController;
-import com.howtodoinjava.rest.controller.RESTClientController;
-import com.howtodoinjava.rest.healthcheck.AppHealthCheck;
-import com.howtodoinjava.rest.healthcheck.HealthCheckController;
+import am.developer.rest.basicauth.AppAuthenticator;
+import am.developer.rest.basicauth.AppAuthorizer;
+import am.developer.rest.basicauth.User;
+import am.developer.rest.controller.EmployeeRESTController;
+import am.developer.rest.controller.RESTClientController;
+import am.developer.rest.healthcheck.AppHealthCheck;
+import am.developer.rest.healthcheck.HealthCheckController;
 
 public class App extends Application<Configuration> {
 	private static final Logger LOGGER = LoggerFactory.getLogger(App.class);

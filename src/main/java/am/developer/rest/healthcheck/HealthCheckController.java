@@ -1,4 +1,4 @@
-package com.howtodoinjava.rest.healthcheck;
+package am.developer.rest.healthcheck;
 
 import java.util.Map.Entry;
 import java.util.Set;

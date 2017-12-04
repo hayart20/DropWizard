@@ -1,4 +1,4 @@
-package com.howtodoinjava.rest.basicauth;
+package am.developer.rest.basicauth;
 
 import io.dropwizard.auth.Authorizer;
 

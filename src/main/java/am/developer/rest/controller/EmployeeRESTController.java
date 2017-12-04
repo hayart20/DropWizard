@@ -1,4 +1,4 @@
-package com.howtodoinjava.rest.controller;
+package am.developer.rest.controller;
  
 import io.dropwizard.auth.Auth;
 
@@ -22,9 +22,9 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import com.howtodoinjava.rest.basicauth.User;
-import com.howtodoinjava.rest.dao.EmployeeDB;
-import com.howtodoinjava.rest.representations.Employee;
+import am.developer.rest.basicauth.User;
+import am.developer.rest.dao.EmployeeDB;
+import am.developer.rest.representations.Employee;
  
 @Path("/employees")
 @Produces(MediaType.APPLICATION_JSON)
